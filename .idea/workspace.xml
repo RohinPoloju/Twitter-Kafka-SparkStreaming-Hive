@@ -2,17 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2f304918-2e51-4540-9a39-3a84d2bb3d06" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/KafkaStreaming.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/configurations/KafkaProducerConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/configurations/TwitterConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/Tweet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/producer/TwitterKafkaProducer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/producer/callback/BasicCallback.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/tweet.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/twitter.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/twitterkafkaStreaming_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.project" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.classpath" beforeDir="false" afterPath="$PROJECT_DIR$/.classpath" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/KafkaStreaming.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/configurations/KafkaProducerConfiguration.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/configurations/TwitterConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/model/Tweet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/model/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/producer/TwitterKafkaProducer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/producer/callback/BasicCallback.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/twitterkafkaStreaming.iml" beforeDir="false" afterPath="$PROJECT_DIR$/twitterkafkaStreaming.iml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -75,8 +78,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/producer/TwitterKafkaProducer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="535">
-              <caret line="86" column="42" lean-forward="true" selection-start-line="86" selection-start-column="42" selection-end-line="86" selection-end-column="42" />
+            <state relative-caret-position="475">
+              <caret line="94" selection-start-line="94" selection-end-line="94" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -120,7 +123,7 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="1920" />
     <option name="y" value="31" />
     <option name="width" value="1920" />
@@ -139,11 +142,6 @@
               <item name="twitterkafkaStreaming" type="b2602c69:ProjectViewProjectNode" />
               <item name="twitterkafkaStreaming" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="twitterkafkaStreaming" type="b2602c69:ProjectViewProjectNode" />
-              <item name="twitterkafkaStreaming" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -154,7 +152,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -228,9 +226,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1920" y="31" width="1920" height="1049" extended-state="7" />
+    <frame x="1920" y="31" width="1920" height="1049" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16577825" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16577825" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -240,7 +238,7 @@
       <window_info anchor="bottom" id="Messages" weight="0.3293348" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3293348" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3293348" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -371,8 +369,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/producer/TwitterKafkaProducer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="535">
-          <caret line="86" column="42" lean-forward="true" selection-start-line="86" selection-start-column="42" selection-end-line="86" selection-end-column="42" />
+        <state relative-caret-position="475">
+          <caret line="94" selection-start-line="94" selection-end-line="94" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -385,10 +383,12 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
+          <last-edited>twitterkafkaStreaming:jar</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>
