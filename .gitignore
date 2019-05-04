@@ -2,3 +2,4 @@
 /target/
 /.classpath
 /twitterkafkaStreaming.eml/
+.idea/
