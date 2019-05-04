@@ -1,0 +1,7 @@
+producer/TwitterKafkaProducer.class
+KafkaStreaming.class
+configurations/TwitterConfig.class
+configurations/KafkaProducerConfiguration.class
+model/User.class
+producer/callback/BasicCallback.class
+model/Tweet.class
