@@ -1,2 +1,10 @@
 /bin/
 /target/
+
+.idea/
+.settings/
+.classpath/
+dependency-reduced-pom.xml
+*.eml
+*.iml
+*.class

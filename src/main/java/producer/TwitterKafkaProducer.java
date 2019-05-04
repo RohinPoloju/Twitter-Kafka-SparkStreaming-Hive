@@ -1,7 +1,6 @@
 package producer;
 
 import com.google.gson.Gson;
-import com.google.gson.LongSerializationPolicy;
 import com.twitter.hbc.ClientBuilder;
 import com.twitter.hbc.core.Client;
 import com.twitter.hbc.core.Constants;
@@ -36,8 +35,6 @@ public class TwitterKafkaProducer {
                 TwitterConfig.ACCESS_TOKEN_SECRET
         );
 
-        System.out.println("Authentication Passed");
-
         StatusesFilterEndpoint endpoint = new StatusesFilterEndpoint();
         endpoint.trackTerms(Collections.singletonList(TwitterConfig.HASHTAG));
 
@@ -50,15 +47,11 @@ public class TwitterKafkaProducer {
                 .processor(new StringDelimitedProcessor(queue))
                 .build();
 
-        System.out.println("Client Created");
-
         gson = new Gson();
         callback = new BasicCallback();
     }
 
     private Producer<Long, String> getProducer() {
-
-        System.out.println("Setting Producer Properties");
 
         Properties properties = new Properties();
         properties.put(ProducerConfig.BOOTSTRAP_SERVERS_CONFIG, KafkaProducerConfiguration.SEVERS);

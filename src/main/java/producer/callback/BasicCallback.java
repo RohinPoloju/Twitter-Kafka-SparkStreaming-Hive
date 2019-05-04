@@ -11,6 +11,7 @@ public class BasicCallback implements Callback {
             System.out.printf("Message with offset %d in partition %d\n",
                     metadata.offset(), metadata.partition());
         }else{
+        	System.out.println("Exception Occured");
             System.out.println(exception.getMessage());
         }
     }
